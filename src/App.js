@@ -1,14 +1,13 @@
 
 import Navbar from "./Navbar/navbar";
 import Footer from "./Footer/footer";
+import Container from "./Navbar/navbar";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Container/>
       <Footer/>
     </div>
   );
 }
-
-export default App;
