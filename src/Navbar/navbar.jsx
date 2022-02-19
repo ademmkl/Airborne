@@ -2,15 +2,7 @@ import React from 'react';
 import "./navbar.css";
 //import "../bootstrap.css";
 
-export default function Container() {
-    return (
-      <dir className="container">
-        <Navbar/>
-      </dir>
-      );
-}
-
-function Navbar(){
+export default function Navbar(){
   return(
     <nav>
       <div id="logo"><a href="#"></a></div>

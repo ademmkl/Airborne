@@ -17,7 +17,7 @@ export default function Footer() {
                     <a href="#"><i class="fa-brands fa-twitter"></i></a>
                     <a href="https://www.linkedin.com/company/airborneroket" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             </div>
-            <div class="copyright">© 2022 Airborne Rocket</div>
+            <div className="copyright">© 2022 Airborne Rocket</div>
         </footer>
       );
 }

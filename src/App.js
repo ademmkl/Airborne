@@ -1,7 +1,7 @@
 
 import Navbar from "./Navbar/navbar";
 import Footer from "./Footer/footer";
-import Container from "./Navbar/navbar";
+import "./App.css"
 
 export default function App() {
   return (
@@ -9,5 +9,20 @@ export default function App() {
       <Container/>
       <Footer/>
     </div>
+  );
+}
+
+function Container() {
+  return (
+    <dir className="container">
+      <Navbar/>
+      <Body/>
+    </dir>
+    );
+}
+
+function Body() {
+  return (
+    <div className="body"></div>
   );
 }
